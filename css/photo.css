@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40; 
+}
+
+.nav-link {
+    color: #ffffff !important; 
+}
+
+.nav-link:hover {
+    color: red !important; /* Light grey on hover */
+}
+
+/* Hero Section */
+header {
+    color: black; 
+}
+
+header h1 {
+    font-size: 3rem; /* Larger font size for main title */
+}
+
+header p {
+    font-size: 1.25rem; /* Slightly larger font for subtitle */
+}
+
+/* Services Section */
+.card {
+    transition: transform 0.2s; /* Animation on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover to maintain aspect ratio */
+}
+
+/* Portfolio Section */
+h2 {
+    font-size: 2rem; /* Section titles */
+    margin-top: 20px; /* Space above titles */
+}
+
+.card-body {
+    background-color: #ffffff; /* White background for card body */
+    border: 1px solid #e0e0e0; /* Light border */
+}
+
+/* Gallery Styles */
+.img-fluid {
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Experience Section */
+h5 {
+    color: #007bff; /* Blue color for subheadings */
+}
+
+ul {
+    list-style-type: square; /* Square bullet points */
+}
+
+/* Contact Form */
+.form-label {
+    font-weight: bold; /* Bold labels */
+}
+
+textarea {
+    resize: none; /* Disable resizing for textarea */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; 
+    color: #ffffff; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem; /* Smaller font size for smaller screens */
+    }
+    
+    header p {
+        font-size: 1.1rem; /* Smaller font size for smaller screens */
+    }
+}
